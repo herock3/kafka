@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafkaProducer" />
+        <module name="KafkaProducer" />
+        <module name="kafkaStorm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="1.5" />
+      <module name="kafka" target="1.5" />
+      <module name="kafkaBaseDemo" target="1.5" />
+      <module name="KafkaProducer" target="1.5" />
+      <module name="kafkaProducer" target="1.5" />
+      <module name="kafkaStorm" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
